@@ -14,7 +14,7 @@
  *     - export ZOO_OPENCARD="true" //默认不开通会员
  *=================================Loon===================================
  *[Script]
- *cron "15 10 * * * " script-path=https://raw.githubusercontent.com/drew0531/jd-project/main/zooElecsport.js,tag=东东电竞经理
+ cron "15 10 * * * " script-path=https://raw.githubusercontent.com/drew0531/jd-project/main/zooElecsport.js,tag=东东电竞经理
  */
 const $ = new Env("东东电竞经理");
 const ZOO_OPENCARD = $.isNode() ? process.env.ZOO_OPENCARD || 'false' : 'false'
