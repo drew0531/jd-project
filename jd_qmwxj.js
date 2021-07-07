@@ -3,7 +3,10 @@
 运行一次查看邀请码 变量你的邀请码 
 export shareCode="212E41AD9CF8C0F81EF8AC4C2F80FDE6&3274681BFC4A60DFE2BD38ACE862538E&5C489BF572B97E3869D23981943BA276&8FDD0CEE0F737314FDBA77CC88CE4AEB"
 [task_local]
-0 10 * * *
+=================================Loon===================================
+[Script]
+cron "0 10 * * * " script-path=https://raw.githubusercontent.com/drew0531/jd-project/main/jd_qmwxj.js,tag=全民挖现金
+
 */
 
 const $ = new Env('柠檬全民挖现金');
