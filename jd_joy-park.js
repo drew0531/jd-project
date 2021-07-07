@@ -9,10 +9,14 @@ export joyinviterPin="X96NY0z4VI7S0BhlrAYUNA" //IANWqUmbgQVF9ePHGsGFA2m-zSTLKmHF
 新手上路勿黑勿喷
 TG通知群 https://t.me/ningmeng999
 微信公众号:柠檬玩机交流
+=================================Loon===================================
+[Script]
+cron "20 * * * *" script-path=https://raw.githubusercontent.com/drew0531/jd-project/main/jd_joy-park.js,tag=旺财乐园
+
 */
 // [task_local]
 // #柠檬旺财乐园
-// 20 * * * *
+
 
 const $ = new Env('柠檬旺财乐园新手上路版');
 const notify = $.isNode() ? require('./sendNotify') : '';

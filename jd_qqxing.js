@@ -8,7 +8,7 @@
 #星系牧场
 =================================Loon===================================
 [Script]
-cron "1 0-23/2 * * *" script-path=https://raw.githubusercontent.com/drew0531/jd-project/main/jd_qqxing.js,tag=全民抢京豆
+cron "1 0-23/2 * * *" script-path=https://raw.githubusercontent.com/drew0531/jd-project/main/jd_qqxing.js,tag=星系牧场
 */
 const $ = new Env('QQ星系牧场');
 //Node.js用户请在jdCookie.js处填写京东ck;
