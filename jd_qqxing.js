@@ -6,7 +6,9 @@
  19.0复制整段话 http:/J7ldD7ToqMhRJI星系牧场养牛牛，可获得DHA专属奶！%VAjYb8me2b!→去猄倲←
 [task_local]
 #星系牧场
-1 0-23/2 * * * 
+=================================Loon===================================
+[Script]
+cron "1 0-23/2 * * *" script-path=https://raw.githubusercontent.com/drew0531/jd-project/main/jd_qqxing.js,tag=全民抢京豆
 */
 const $ = new Env('QQ星系牧场');
 //Node.js用户请在jdCookie.js处填写京东ck;
