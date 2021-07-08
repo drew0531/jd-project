@@ -9,7 +9,7 @@ cron 15 2,14,22 * * * sendBeans.js
 ============Quantumultx===============
 [task_local]
 #送豆得豆
-15 2,14,22 * * * https://raw.githubusercontent.com/zsm85887823/AndyJD/main/own/Andy_sendBeans.js, tag=送豆得豆
+cron "15 2,14,22 * * *" https://raw.githubusercontent.com/zsm85887823/AndyJD/main/own/Andy_sendBeans.js, tag=送豆得豆
 ================Loon==============
 [Script]
 cron "15 2,14,22 * * *" script-path=https://raw.githubusercontent.com/zsm85887823/AndyJD/main/own/Andy_sendBeans.js,tag=送豆得豆
