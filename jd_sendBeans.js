@@ -8,7 +8,7 @@
 #送豆得豆
 ================Loon==============
 [Script]
-cron "15 2,14,22 * * *" script-path=https://raw.githubusercontent.com/zsm85887823/AndyJD/main/own/Andy_sendBeans.js,tag=送豆得豆
+cron "15 2,14,22 * * *" script-path=script-path=https://raw.githubusercontent.com/drew0531/jd-project/main/jd_sendBeans.js,tag=送豆得豆
 */
 const $ = new Env('送豆得豆');
 $.toObj = (t, e = null) => {
