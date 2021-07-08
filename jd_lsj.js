@@ -9,7 +9,10 @@ export lsjdh="jdAward2" ##兑换10豆
 export lsjdh="jdAward3" ##兑换100豆
 export lsjdh="jdAward4" ##兑换牛奶
 [task_local]
-0 11 * * *
+================Loon===============
+[Script]
+cron "0 11 * * *" script-path=https://raw.githubusercontent.com/drew0531/jd-project/main/jd_lsj.js, tag=京东零食街
+
 */
 const $ = new Env('柠檬京东零食街');
 const notify = $.isNode() ? require('./sendNotify') : '';
