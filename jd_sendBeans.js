@@ -1,22 +1,14 @@
 /*
 送豆得豆
-cron 15 2,14,22 * * * sendBeans.js
 更新时间：2021-6-19 23点
-
 活动入口：京东APP-京豆-送豆得豆
 已支持IOS双京东账号,Node.js支持N个京东账号
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
-============Quantumultx===============
 [task_local]
 #送豆得豆
-cron "15 2,14,22 * * *" https://raw.githubusercontent.com/zsm85887823/AndyJD/main/own/Andy_sendBeans.js, tag=送豆得豆
 ================Loon==============
 [Script]
 cron "15 2,14,22 * * *" script-path=https://raw.githubusercontent.com/zsm85887823/AndyJD/main/own/Andy_sendBeans.js,tag=送豆得豆
-===============Surge=================
-送豆得豆 = type=cron,cronexp="15 2,14,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zsm85887823/AndyJD/main/own/Andy_sendBeans.js
-============小火箭=========
-送豆得豆 = type=cron,script-path=https://raw.githubusercontent.com/zsm85887823/AndyJD/main/own/Andy_sendBeans.js, cronexpr="15 2,14,22 * * *", timeout=3600, enable=true
 */
 const $ = new Env('送豆得豆');
 $.toObj = (t, e = null) => {
