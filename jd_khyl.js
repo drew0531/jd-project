@@ -12,7 +12,7 @@
 15 3,6,13,19,21 * * * https://gitee.com/SuperManito/scripts/raw/master/jd_khyl.js, tag=海尔开盒有礼
 ================Loon==============
 [Script]
-cron "40 1,23 * * *" script-path=https://gitee.com/SuperManito/scripts/raw/master/jd_khyl.js,tag=海尔开盒有礼
+cron "40 1,23 * * *" script-path=jd_khyl.js,tag=海尔开盒有礼
 ===============Surge=================
 海尔开盒有礼 = type=cron,cronexp="40 1,23 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/SuperManito/scripts/raw/master/jd_khyl.js
 ============小火箭=========
