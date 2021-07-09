@@ -1,12 +1,12 @@
 /*
 * 来客有礼小程序
 [task_local]
-#送豆得豆
+#来客有礼小程序
 ================Loon==============
 [Script]
-cron "15 2,14,22 * * *" script-path=script-path=https://raw.githubusercontent.com/drew0531/jd-project/main/jd_sendBeans.js,tag=送豆得豆
+cron "15 2,14,22 * * *" script-path=script-path=https://raw.githubusercontent.com/drew0531/jd-project/main/jd_sendBeans.js,tag=来客有礼小程序
 */
-const $ = new Env('送豆得豆');
+const $ = new Env('来客有礼小程序');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 //IOS等用户直接用NobyDa的jd cookie
